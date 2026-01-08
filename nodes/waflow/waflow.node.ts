@@ -6,10 +6,10 @@ import type {
 } from 'n8n-workflow';
 import { NodeConnectionTypes, NodeOperationError } from 'n8n-workflow';
 
-export class Example implements INodeType {
+export class waflow implements INodeType {
 	description: INodeTypeDescription = {
 		displayName: 'WaFloW',
-		name: 'waflow.ai',
+		name: 'automation.waflow.ai',
 		icon: { light: 'file:waflow-comunity-node-n8n/nodes/Example/example.dark.svg waflow-comunity-node-n8n/nodes/Example/Example.node.json waflow-comunity-node-n8n/nodes/Example/Example.node.ts waflow-comunity-node-n8n/nodes/Example/example.svg', dark: 'file:waflow-comunity-node-n8n/nodes/Example/example.dark.svg waflow-comunity-node-n8n/nodes/Example/Example.node.json waflow-comunity-node-n8n/nodes/Example/Example.node.ts waflow-comunity-node-n8n/nodes/Example/example.svg' },
 		group: ['input'],
 		version: 1,

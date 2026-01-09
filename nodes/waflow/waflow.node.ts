@@ -16,7 +16,7 @@ export class WaFlow implements INodeType {
 		group: ['trigger'],
 		version: 1,
 		description: 'Starts the workflow when a WaFlow event occurs',
-		usableAsTool: true,
+		usableAsTool: undefined,
 		defaults: {
 			name: 'WaFloW Trigger',
 		},
